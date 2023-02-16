@@ -1,5 +1,6 @@
 import 'package:app1/app1.dart' as app1;
 
 void main(List<String> arguments) {
-  print('Hello world: ${app1.calculate()}!');
+  final f = app1.Fibonacci(count: 10);
+  print('Hello world: ${f.calc()}!');
 }
